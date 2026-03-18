@@ -49,6 +49,55 @@ pnpm-debug.log*
 # Typescript
 *.tsbuildinfo
 
+# Dart / Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+.pub-cache/
+build/
+**/.fvm/
+**/flutter_export_environment.sh
+
+# Android (Flutter)
+**/android/.gradle/
+**/android/captures/
+**/android/local.properties
+**/android/key.properties
+**/android/**/GeneratedPluginRegistrant.java
+
+# iOS / macOS (Flutter)
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework/
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/App.framework/
+**/ios/Flutter/ephemeral/
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/macos/Pods/
+**/macos/Flutter/ephemeral/
+
+# Xcode
+**/*.xcuserstate
+**/*.xcuserdata/
+**/*.moved-aside
+**/*.pbxuser
+**/*.mode1v3
+**/*.mode2v3
+**/*.perspectivev3
+**/*.hmap
+**/*.xccheckout
+**/*.xcscmblueprint
+
+# Ruby / CocoaPods
+**/.bundle/
+**/vendor/bundle/
+
+# JetBrains / local AI tooling
+.claude/
+
 # Misc build artifacts
 *.pid
 *.seed
